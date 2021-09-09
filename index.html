@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bom dia</title>
+    <script>
+        function comovai() {
+            document.querySelector('h1').innerHTML = 'Como vai?'
+        }
+        function purple () {
+            document.querySelector("h1").style.color = 'purple';
+        }
+        function load () {
+        
+        document.querySelector("button").addEventListener('click', comovai);
+        document.querySelector("button").addEventListener('click', purple)
+        }
+        document.addEventListener("DOMContentLoaded", load)
+    </script>
+</head>
+
+<body>
+    <h1>Bom dia!</h1>
+    <button>Continuação</button>
+</body>
+
+</html>
